@@ -1,0 +1,286 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.top{
+    height:760px;
+    width:100%;
+    border:0px solid black;
+    margin:auto;
+    
+}
+.top>img{
+    width:100%;
+    position:relative;
+}
+.top>h1{
+    position:absolute;
+    color:white;
+    left:600px;
+    top:300px;
+    font-size:100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom:30px;
+}
+.top>h2{
+    color:white;
+    left:300px;
+    top:430px;
+    position:absolute;
+    font-size:40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.locations{
+    height:150px;
+    width:100%;
+    margin:auto;
+}
+#flag{
+    width:50px;
+    margin-top:20px;
+    margin-right:10px;
+    margin-left:730px;
+}
+.locations>h1{
+    font-size:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:100;
+}
+.para{
+    height:100px;
+    width:60%;
+    margin:auto;
+    margin-top:15px;
+}
+.para>p{
+    text-align:center;
+    color:gray;
+    font-size:23px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+/* grid box */
+.grid>div a{
+    text-decoration:none;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    
+    
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    margin:auto;
+    border:0px solid black;
+    width:80%;
+    margin-top:80px;
+}
+.grid>div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height:50px;
+    width:300px;
+    margin-top:80px;
+
+}
+/* countries */
+.countries{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    margin:auto;
+    border:0px solid black;
+    width:80%;
+    margin-top:80px;
+    margin-bottom:20px;
+
+}
+.countries>div img{
+    width:40px;
+    margin-left:130px;
+
+}
+.countries>div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height:50px;
+    width:300px;
+    margin-top:80px;
+}
+/* media query */
+/* small screen */
+@media all and (min-width:320px) and (max-width:480px){
+    /* top section */
+    .top{
+        width:100%;
+        border:0px solid yellow;
+        height:200px;
+        margin:auto;
+    }
+    .top>img{width:100%
+    }
+    .top>h1{
+        top:50px;
+        left:180px;
+        font-size:small;
+    }
+    .top>h2{
+        top:80px;
+        left:30px;
+        font-size:small;
+
+    }
+/* locations section */
+.locations{
+    width:100%;
+    border:0px solid yellow;
+    height:70px;
+    margin:auto;
+}
+.locations>h1{
+    font-size:small;
+    text-align:center;
+    
+}
+.locations>h1 span>img{
+    width:2px;
+}
+/* para */
+.para{
+    width:100%;
+    margin:auto;
+    border:0px solid black;
+    height:70px;
+    margin-bottom:0px;
+    width:80%;
+}
+.para>p{
+    text-align:center;
+    font-size:small;
+}
+/* grid */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+    padding-top:0px;
+    width:100%;
+    border:0px solid pink;
+    margin:auto;
+    
+}
+.grid>div a{
+    font-size:small;
+}
+.grid>div{
+    margin-left:30px;
+}
+/* countries */
+
+.countries{
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+    padding-top:0px;
+    width:100%;
+    border:0px solid pink;
+    margin:auto;
+    
+}
+.countries>div a{
+    font-size:small;
+}
+.countries>div{
+    margin-left:30px;
+}
+    }
+
+    /* medium screen */
+    @media all and (min-width:481px) and (max-width:768px){
+        /* top section */
+    .top{
+        width:100%;
+        border:0px solid yellow;
+        height:400px;
+        margin:auto;
+    }
+    .top>img{width:100%
+    }
+    .top>h1{
+        top:80px;
+        left:350px;
+        font-size:medium;
+    }
+    .top>h2{
+        top:100px;
+        left:150px;
+        font-size:medium;
+
+    }
+/* locations section */
+.locations{
+    width:100%;
+    border:0px solid yellow;
+    height:70px;
+    margin:auto;
+}
+.locations>h1{
+    font-size:medium;
+    text-align:center;
+    
+}
+.locations>h1 span>img{
+    width:2px;
+}
+/* para */
+.para{
+    width:100%;
+    margin:auto;
+    border:0px solid black;
+    height:70px;
+    margin-bottom:0px;
+    width:80%;
+}
+.para>p{
+    text-align:center;
+    font-size:medium;
+    margin-left:20px;
+    margin-right:20px;
+}
+/* grid */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    padding-top:0px;
+    width:100%;
+    border:0px solid pink;
+    margin:auto;
+    
+}
+.grid>div a{
+    font-size:medium;
+}
+.grid>div{
+    margin-left:30px;
+}
+/* countries */
+
+.countries{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    padding-top:0px;
+    width:100%;
+    border:0px solid pink;
+    margin:auto;
+    
+    
+}
+.countries>div a{
+    font-size:medium;
+}
+.countries>div{
+    margin-left:30px;
+}
+    }
+
+
+
+    

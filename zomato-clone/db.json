@@ -1,0 +1,185 @@
+{
+  "foodData":[
+      {
+          "id":1,
+          "name":"Burger",
+          "image":"https://b.zmtcdn.com/data/pictures/1/110271/dfa17aeaf1171dc45f7afd7c266eb524_o2_featured_v2.jpg?output-format=webp",
+          "category":"Chinese",
+          "price":250,
+           "rating":"⭐⭐⭐",
+           "type":"Vegetarian"
+      },
+
+{
+  "id":2,
+  "name":"Pizza",
+  "image":"https://b.zmtcdn.com/data/pictures/chains/6/111026/e8cf1c58f2bb217f3d85ff50b7fe39a3_o2_featured_v2.jpg",
+  "category":"Chinese",
+  "price":499,
+  "rating":"⭐⭐⭐⭐",
+  "type":"Vegetarian"
+},
+{
+  "id":3,
+  "name":"Chole Bhature",
+  "image":"https://b.zmtcdn.com/data/pictures/4/20121704/89b4631350814a8b3a75320760540dab_o2_featured_v2.jpg",
+  "category":"North Indian",
+  "price":200,
+  "rating":"⭐⭐⭐",
+  "type":"Vegetarian"
+},
+{
+  "id":4,
+  "name":"Biryani",
+  "image":"https://b.zmtcdn.com/data/pictures/3/19438663/5f327ce13bebe307b668d55e333f7196_o2_featured_v2.jpg",
+  "category":"North Indian",
+  "price":"299",
+  "rating":"⭐⭐⭐",
+  "type":"Non Vegetarian"
+
+},
+{
+  "id":5,
+  "name":"Fast Food combo",
+  "image":"https://b.zmtcdn.com/data/pictures/chains/5/112945/83e71b55d4a73c3f0e1a5a353f90eb13_o2_featured_v2.jpg",
+  "category":"Chinese",
+  "price":"599",
+  "rating":"⭐⭐⭐⭐",
+  "type":"Non Vegetarian"
+
+},
+
+{
+  "id":6,
+  "name":"Dosa",
+  "image":"https://b.zmtcdn.com/data/pictures/chains/2/110572/3235a23f8d3fe583e9094ce1304a8aee_o2_featured_v2.jpg",
+  "category":"South Indian",
+  "price":"199",
+  "rating":"⭐⭐",
+  "type":"Vegetarian"
+
+},
+{
+  "id":7,
+  "name":"Punjabi Thali",
+  "image":"https://b.zmtcdn.com/data/pictures/4/113234/c72059e7eb7d713e7b04f83f1a90f387_o2_featured_v2.jpg",
+  "category":"North Indian",
+  "price":"245",
+  "rating":"⭐⭐⭐",
+  "type":"Vegetarian"
+
+},
+{
+  "id":8,
+  "name":"Gujrati Thali",
+  "image":"https://b.zmtcdn.com/data/pictures/0/19351320/2ee84ce13d2de635e306f43dcf8a1792_o2_featured_v2.jpg",
+  "category":"North Indian",
+  "price":"330",
+  "rating":"⭐⭐⭐",
+  "type":"Vegetarian"
+
+},
+{
+  "id":9,
+  "name":"Pasteries",
+  "image":"https://b.zmtcdn.com/data/pictures/chains/7/110397/2011193460b6f9638a7d7c7942492b5f_o2_featured_v2.jpg",
+  "category":"North Indian",
+  "price":"250",
+  "rating":"⭐⭐⭐⭐",
+  "type":"Vegetarian"
+
+},
+{
+  "id":10,
+  "name":"Dhokla",
+  "image":"https://b.zmtcdn.com/data/pictures/3/111893/73afa193d6f3b16ade452882ace2f06b_o2_featured_v2.jpg",
+  "category":"North Indian",
+  "price":"330",
+  "rating":"⭐⭐⭐",
+  "type":"Vegetarian"
+
+},
+
+{
+  "id":12,
+  "name":"Bombay Biryani",
+  "image":"https://b.zmtcdn.com/data/pictures/chains/0/18371310/a8c84349c1138e70cf3870a850f5e29d_o2_featured_v2.jpg",
+  "category":"North Indian",
+  "price":"345",
+  "rating":"⭐⭐⭐",
+  "type":"Non Vegetarian"
+
+},
+{
+  "id":13,
+  "name":"Chinese Combo",
+  "image":"https://b.zmtcdn.com/data/pictures/8/19148818/be1affdd811e1a854a88e3cea189a5aa_o2_featured_v2.jpeg",
+  "category":"Chinese",
+  "price":"499",
+  "rating":"⭐⭐⭐⭐",
+  "type":"Vegetarian"
+
+},
+{
+  "id":14,
+  "name":"Aalu Paratha",
+  "image":"https://b.zmtcdn.com/data/pictures/9/19010959/704564c0feb5a02ed1ffae1607cc9f19_o2_featured_v2.jpg",
+  "category":"North Indian",
+  "price":"346",
+  "rating":"⭐⭐⭐⭐",
+  "type":"Vegetarian"
+
+},
+{
+  "id":15,
+  "name":"Idli",
+  "image":"https://b.zmtcdn.com/data/dish_photos/133/f096aa40131b515c410b9b531ce1c133.jpg",
+  "category":"South Indian",
+  "price":"99",
+  "rating":"⭐⭐⭐",
+  "type":"Vegetarian"
+
+},
+{
+  "id":16,
+  "name":"Veg Thali",
+  "image":"https://b.zmtcdn.com/data/pictures/5/110145/36a78a6b8419157c8b47fecb8e41d50d_o2_featured_v2.jpg",
+  "category":"North Indian",
+  "price":"330",
+  "rating":"⭐⭐⭐",
+  "type":"Vegetarian"
+
+},
+{
+  "id":17,
+  "name":"Noodles",
+  "image":"https://b.zmtcdn.com/data/pictures/9/20384809/9c5319a974c98d17d56b0775e4215a53_o2_featured_v2.jpg",
+  "category":"Chinese",
+  "price":"280",
+  "rating":"⭐⭐⭐",
+  "type":"Vegetarian"
+
+},
+{
+  "id":18,
+  "name":"Chicken Rice",
+  "image":"https://b.zmtcdn.com/data/pictures/chains/0/19230070/c32bd42228b68aab98478a671b1ca32c_o2_featured_v2.jpg",
+  "category":"Chinese",
+  "price":"150",
+  "rating":"⭐⭐⭐",
+  "type":"Non Vegetarian"
+
+},
+{
+  "id":19,
+  "name":"Razma",
+  "image":"https://b.zmtcdn.com/data/pictures/0/110830/3dc708351655ec118106d4ffe9e0fa99_o2_featured_v2.jpg",
+  "category":"North Indian",
+  "price":"130",
+  "rating":"⭐⭐⭐",
+  "type":"Vegetarian"
+
+}
+
+  ]
+}
