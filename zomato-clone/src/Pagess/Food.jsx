@@ -29,7 +29,7 @@ const Food = () => {
    
 
     useEffect(()=>{
-        axios.get(' http://localhost:3000/foodData')
+        axios.get('https://food-data-zomato-clone.onrender.com/foodData')
         .then((res)=>{
             setData(res.data); 
         })
